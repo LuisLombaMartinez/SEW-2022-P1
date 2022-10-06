@@ -1,18 +1,28 @@
 /*001*/
-body {
+/* body {
     display: grid;
     grid-template-areas:
       "header header header"
       "main main main"
       "footer footer footer";
+} */
+
+
+body {
+    display: grid;
+    grid-template-areas:
+      "header header header"
+      "nav main aside"
+      "footer footer footer";
 }
+
 
 /*001*/
 main {
     grid-area: main;
     display: grid;
     grid-template-areas:
-      "nav section aside";
+      "section section section";
 }
 
 /*001*/
